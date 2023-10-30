@@ -1,0 +1,32 @@
+img{
+    width: 100%;
+ }
+ 
+ .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #333;
+    grid-template-rows: auto auto auto auto;
+    gap: 5px ;
+   
+ }
+
+ .grid-container div{
+    background-color: aqua;
+    border:1px solid black;
+    margin: 5px;
+    padding: 30px;
+    text-align:center;
+ }
+
+ #d1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height:10vh;
+ }
+ #d2{
+    grid-column-start: 4;
+    grid-column-end: 6;
+ }
